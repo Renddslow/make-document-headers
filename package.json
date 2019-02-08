@@ -1,6 +1,6 @@
 {
   "name": "make-document-headers",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A simple module to return formatted HTML head section based on a list of inputs.",
   "main": "index.js",
   "repository": "https://github.com/Renddslow/make-document-headers.git",
