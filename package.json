@@ -1,0 +1,26 @@
+{
+  "name": "make-document-headers",
+  "version": "0.1.0",
+  "description": "A simple module to return formatted HTML head section based on a list of inputs.",
+  "main": "index.js",
+  "repository": "https://github.com/Renddslow/make-document-headers.git",
+  "author": "Matt McElwee <mubatt@wyopub.com>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "private": false,
+  "dependencies": {
+    "dot-prop": "^4.2.0",
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.92.1",
+    "tape": "^4.9.2"
+  },
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build",
+    "test": "tape -r babel-register src/test.js"
+  }
+}
