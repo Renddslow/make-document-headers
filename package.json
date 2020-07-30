@@ -8,7 +8,7 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
   "dependencies": {
-    "dot-prop": "^4.2.0",
+    "dot-prop": "^5.1.1",
     "ejs": "^2.6.1"
   },
   "devDependencies": {
